@@ -1,0 +1,180 @@
+html{
+    overflow-x: hidden;
+}
+* {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+    font-family:Plus Jakarta Sans;
+    box-sizing: border-box;
+
+}
+body{
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    background-position: bottom;
+}
+button{
+    cursor:pointer;
+    height: 63px;
+    width: 167px;
+    border-radius: 31.5px;
+    font-weight:700;
+}
+header div {
+	display: flex;
+    justify-content: space-between;
+}
+.skilled {
+    background-color: transparent;
+	width: 114px;
+	line-height: 45px;
+	font-size: 36xp;
+	font-weight: 700;
+    margin:38.75px 0px 0px 165.79px;
+}
+.button-top {
+    position: relative;
+    z-index: 2;
+    cursor:pointer;
+	background-color: #13183f;
+	color: white;
+	height: 56px;
+	width: 167px;
+	margin: 24px 165px 0px 0px;
+}
+.button-top:hover{
+    background-color:#666CA3;
+}
+.top{
+    display:flex;
+    justify-content: space-between;
+    overflow: hidden;
+    width:1440px;
+}
+.box-top{
+    margin:185.57px 162px 226px 165px;
+    width:457px;
+    height:359px;
+}
+.box-top h2{
+    font-family: Plus Jakarta Sans;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 71px;
+    text-align: left;
+}
+.box-top p{
+    margin:29px 12px 40px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color:#83869A;
+}
+.box-top button{
+    background: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+    color:white;
+}
+.box-top button:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+.girl{
+    background-image: url(assets/image-hero-desktop.png);
+    position: absolute;
+    z-index: 1;
+    top: -146.13px;
+    right: -335.63px;
+    height: 936.91px;
+    width: 991.63px;
+}
+.bottom{
+    display: grid;
+    width: 1110px;
+    margin:0px auto 140px auto;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    gap:30px;
+}
+.square{
+    height: 322px;
+    border-radius: 15px;
+    margin-bottom:80px;
+}
+.square-pink{
+    background: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+}
+.square-pink p{
+    font-family: Plus Jakarta Sans;
+    color:white;
+    width:286px;
+    height:120px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+    text-align: left;
+    margin: 64px 32px 138px 32px;
+}
+.square-white{
+    background-color: white;
+    height: 322px;
+    border-radius: 15px;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+}
+.square-white-txt{
+    padding:64px 32px 40px 32px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.square-white-txt h3{
+    color:#13183F;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+}
+/*:first-of-type pega somente o primeiro elemento daquele tipo.
+nessa div tem dois elementos p então o :first-of-type pegou só o primeiro.
+flex-grow:1 significa que o elemento vai ocupar todo o espaço disponível,
+mas ele não colou no h3 porque tem o margin-top.*/
+.square-white-txt p:first-of-type {
+    margin-top:24px;
+    color:#83869A;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    flex-grow: 1;
+}
+.square-white-txt p a{
+    color:#F74780;
+    text-decoration: none;
+    font-weight: 700;
+}
+.square-white-txt p a:hover {
+    color:#FFA7C3;
+}
+.icon{
+    position:absolute;
+    top:-24px;
+    left:32px;
+}
+footer{
+    background-color:#13183F;
+    padding:32px 165px;
+}
+footer div{
+    display:flex;
+    justify-content: space-between;
+}
+footer .button-bottom{
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    color: white;
+    height: 56px;
+	width: 167px;
+}
+footer .button-bottom:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);}
+footer .skilled2{
+    background-color: transparent;
+}
