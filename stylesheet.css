@@ -175,9 +175,9 @@ footer .button-bottom:hover{
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
 }
 /*Tablet size*/
-@media (max-width:1200px) {
+@media (max-width:1150px) {
     header{
-        padding:24px 39px;
+        padding:24px 39px 0px 39px;
     }
     button{
         height: 56px;
@@ -195,13 +195,13 @@ footer .button-bottom:hover{
         position:relative;
         top:0px;
         background-image: url(assets/image-hero-tablet.png);
-        background-size: 640px 640.71px;
+        background-size: 640.71px 640px;
         background-position: top -92.13px right -297.71px;
         height:641px;
-        padding:171px 0px 186px 37px;
+        padding:0px;
     }
     .box-top{
-        margin:99px auto 186px 39px;
+        padding:99px 0px 0 37px;
         width:398px;
         height:284px;
     }
